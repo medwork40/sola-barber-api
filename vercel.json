@@ -1,6 +1,13 @@
 {
   "version": 2,
   "rewrites": [
+    { "source": "/api/ping", "destination": "/api" },
+    { "source": "/api/stats", "destination": "/api" },
+    { "source": "/api/availability", "destination": "/api" },
+    { "source": "/api/mybooking", "destination": "/api" },
+    { "source": "/api/cancel", "destination": "/api" },
+    { "source": "/api/book", "destination": "/api" },
+    { "source": "/api", "destination": "/api" },
     { "source": "/api/(.*)", "destination": "/api" }
   ],
   "headers": [
