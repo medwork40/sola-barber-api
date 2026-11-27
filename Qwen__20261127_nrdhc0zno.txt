@@ -1,8 +1,0 @@
-sola-barber-api/
-├── 📄 README.md
-├── 📄 .gitignore
-├── 📄 package.json
-├── 📄 vercel.json
-├── 📄 schema.sql
-└── 📁 api/
-    └── 📄 index.js
